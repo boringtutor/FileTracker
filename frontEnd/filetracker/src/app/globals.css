@@ -4,13 +4,16 @@
 
 @layer base {
   :root {
-    --background: 183°, 98%, 22%;
+    /* #016a70 */
+    --background: 183, 98%, 22%;
+    /* #a2c579 */
+    --primary: 97, 68%, 69%;
 
-    --primary: 97°, 68%, 69%;
+    /* #d2de32 */
+    --secondary: 64, 72%, 53%;
 
-    --secondary: 64°, 72%, 53%;
-
-    --accent: 60°, 100%, 93%;
+    /* #ffffdd */
+    --accent: 60, 100%, 93%;
 
     --destructive: 0 100% 50%;
 
@@ -18,13 +21,14 @@
   }
 
   .dark {
-    --background: 216°, 18%, 16%;
-
-    --primary: 217°, 10%, 25%;
-
-    --secondary: 42°, 100%, 71%;
-
-    --accent: 0°, 0%, 93%;
+    /* #222831 */
+    --background: 216, 18%, 16%;
+    /*#393e46*/
+    --primary: 217, 10%, 25%;
+    /* #ffd369 */
+    --secondary: 42, 100%, 71%;
+    /* #eeeeee */
+    --accent: 0, 0%, 93%;
 
     --destructive: 0 100% 50%;
 

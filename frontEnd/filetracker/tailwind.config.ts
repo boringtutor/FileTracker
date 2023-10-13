@@ -8,6 +8,8 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./*.{js,ts,jsx,tsx,mdx}",
+    "components/**/*.{ts,tsx}",
   ],
   theme: {
     container: {
@@ -27,6 +29,12 @@ const config: Config = {
       sm: "0.813rem",
     },
     extend: {
+      spacing: {
+        "button-primary-width": "6.688rem",
+        "button-primary-height": "2.5rem",
+        "button-secondary-width": "8.75rem",
+        "button-secondary-height": "2.5rem",
+      },
       colors: {
         background: "hsl(var(--background))",
         primary: "hsl(var(--primary))",
