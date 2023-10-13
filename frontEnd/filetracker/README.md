@@ -41,6 +41,10 @@ npm i tailwind-merge
 ```
 
 ```bash
+npm i @ianvs/prettier-plugin-sort-imports
+```
+
+```bash
 npm i react-error-boundary
 
 ```
@@ -49,6 +53,34 @@ npm i react-error-boundary
 npm i class-variance-authority
 ```
 
+```bash
+npm i eslint-plugin-react-hooks
+```
+
+```bash
+npm i eslint-plugin-tailwindcss
+```
+
+```bash
+npm i tailwindcss-animate
+```
+
+```bash
+npm i clsx
+```
+
+```bash
+npm i lucide-react
+```
+
+```bash
+npm i next-themes
+```
+
 ## Radix ui
+
+```bash
+npm install @radix-ui/react-slot
+```
 
 ## shadcnui
