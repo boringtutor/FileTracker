@@ -3,6 +3,7 @@ import "./globals.css"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 
+import { SiteHeader } from "../../components/site-header"
 //import { SiteHeader } from "@/components/site-header"
 import { ThemeProvider } from "../../components/theme-provider"
 import { siteConfig } from "../../config/site"
@@ -39,7 +40,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <div className="relative flex min-h-screen flex-col">
-              {/* <SiteHeader /> */}
+              <SiteHeader />
               <div className="flex-1">{children}</div>
             </div>
             {/* <TailwindIndicator /> */}

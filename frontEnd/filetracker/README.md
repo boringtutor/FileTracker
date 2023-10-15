@@ -35,6 +35,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## Color Pallet for my website
+
+[RealTimeColors](https://www.realtimecolors.com/)
+
 ```bash
 npm i tailwind-merge
 
@@ -81,6 +85,11 @@ npm i next-themes
 
 ```bash
 npm install @radix-ui/react-slot
+```
+
+```bash
+npm install @radix-ui/react-toast
+
 ```
 
 ## shadcnui
